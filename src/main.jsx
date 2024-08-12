@@ -6,9 +6,7 @@ import About from './components/About.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Homepage from './components/Homepage.jsx';
 import { Links } from './utils/globals.jsx';
-// import Contact from './components/Contact.jsx';
-// import Resume from './components/Resume.jsx';
-// import Projects from './components/Projects.jsx';
+
 const routes = Links.map((item)=>{
   return {
     path: item.link,
