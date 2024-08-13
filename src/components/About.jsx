@@ -13,17 +13,17 @@ import pgImage from '../assets/pg.png'
 const About = () => {
     return (
      <>
-      <div className='z-[1]' >
+      <div className='z-[1]'>
         
-          <div className='bg-white rounded-md m-12 p-8'>
-             <p className='m-4'>
+          <div className='bg-white rounded-md m-20 p-12'>
+             <p className='m-4 indent-10'>
             Greetings! My name is George Hernandez based in Austin, Texas. Following my passion to become a full-stack software developer.
             I am a recent graduate of the UT Austin coding bootcamp, finishing out with a 90 GPA and honorary mentions.
             Looking for my first professional tech job and put my passion into practice!
             
             Some of the various languages and frameworks I studied are HTML, CSS, JavaScript, Express, Node, SQL, MongoDB, React, Handlebars, GraphQL, and Apollo.
             </p>
-            <p className='m-4'>
+            <p className='m-4 indent-10'>
             
             In addition to my professional pursuits, I have a diverse range of hobbies. I am an avid tennis and pickleball player. I prioritize fitness with regular gym sessions. I enjoy any opportunity to travel, and have a keen interest in gaming.
             The proud dog dad of two lazy pugs and a hyperactive french bull dog.
