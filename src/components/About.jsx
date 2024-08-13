@@ -60,8 +60,6 @@ const About = () => {
 
           </div>
       </div>
-
-      
       </>
     )
   }
