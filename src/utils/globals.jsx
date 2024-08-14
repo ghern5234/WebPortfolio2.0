@@ -3,7 +3,7 @@ import Contact from "../components/Contact";
 import Projects from "../components/Projects";
 import Resume from "../components/Resume";
 
-export const NAVBAR_REM_HEIGHT = 4;
+export const NAVBAR_REM_HEIGHT = 6;
 export const Links = [{
     link: "/About",
     name: "About",
