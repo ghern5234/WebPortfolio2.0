@@ -15,15 +15,15 @@ const About = () => {
      <>
       <div className='z-[1]'>
         
-          <div className='bg-white rounded-md m-20 p-12'>
-             <p className='m-4 indent-10'>
+          <div className='bg-white rounded-md m-28 p-12 border-4'>
+             <p className='m-4 indent-10 text-2xl'>
             Greetings! My name is George Hernandez based in Austin, Texas. Following my passion to become a full-stack software developer.
             I am a recent graduate of the UT Austin coding bootcamp, finishing out with a 90 GPA and honorary mentions.
             Looking for my first professional tech job and put my passion into practice!
             
             Some of the various languages and frameworks I studied are HTML, CSS, JavaScript, Express, Node, SQL, MongoDB, React, Handlebars, GraphQL, and Apollo.
             </p>
-            <p className='m-4 indent-10'>
+            <p className='m-4 indent-10 text-2xl'>
             
             In addition to my professional pursuits, I have a diverse range of hobbies. I am an avid tennis and pickleball player. I prioritize fitness with regular gym sessions. I enjoy any opportunity to travel, and have a keen interest in gaming.
             The proud dog dad of two lazy pugs and a hyperactive french bull dog.
@@ -33,8 +33,8 @@ const About = () => {
             Feel free to connect with me on Linked, checkout some of my work on GitHub, or send me an email!
              </p>
            </div>
-      
-          <div className='flex flex-row flex-wrap p-8 rounded-md m-8 justify-evenly' >
+      <div className='border-4 bg-black  m-28 '> 
+          <div className='flex flex-row flex-wrap p-8 rounded-md  m-28  justify-evenly' >
           <img src={javaScriptImage} width={200} height={250} className='rounded m-2'></img>
 
           <img src={cssImage} width={200} height={250} className='rounded m-2'></img>
@@ -59,6 +59,7 @@ const About = () => {
 
 
           </div>
+      </div>
       </div>
       </>
     )

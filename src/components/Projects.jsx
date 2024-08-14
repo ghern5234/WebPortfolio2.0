@@ -9,7 +9,8 @@ import weatherDashboardImage from "../assets/WeatherDashboard.png";
 const Projects = () => {
   return (
     <>
-      <div className="bg-white rounded-md m-8 p-8 ">
+    <div className="flex flex-row mt-52">
+      <div className="bg-white rounded-md m-8 p-8 border-4">
         <img src={sliceOverflowImage} width={700} height={250}></img>
 
         <br></br>
@@ -23,7 +24,23 @@ const Projects = () => {
 
       <br></br>
 
-      <div className="bg-white rounded-md m-8 p-8 ">
+
+      <br></br>
+
+      <div className="bg-white rounded-md m-8 p-8 border-6">
+        <img src={weatherDashboardImage} width={700} height={250}></img>
+        <br></br>
+        <Link
+          to="https://github.com/ghern5234/weather-dashboard.git"
+          className="flex flex-row items-center justify-center text-2xl underline"
+        >
+          Weather Dashboard
+        </Link>
+      </div>
+      </div>
+
+      <div className="flex flex-row mt-40">
+      <div className="bg-white rounded-md m-8 p-8 border-4">
         <img src={expressImage} width={700} height={250}></img>
         <br></br>
         <Link
@@ -36,7 +53,7 @@ const Projects = () => {
 
       <br></br>
 
-      <div className="bg-white rounded-md m-8 p-8">
+      <div className="bg-white rounded-md m-8 p-8 border-6">
         <img src={taskBoardImage} width={700} height={250}></img>
         <br></br>
         <Link
@@ -46,18 +63,6 @@ const Projects = () => {
           Task Board
         </Link>
       </div>
-
-      <br></br>
-
-      <div className="bg-white rounded-md m-8 p-8">
-        <img src={weatherDashboardImage} width={700} height={250}></img>
-        <br></br>
-        <Link
-          to="https://github.com/ghern5234/weather-dashboard.git"
-          className="flex flex-row items-center justify-center text-2xl underline"
-        >
-          Weather Dashboard
-        </Link>
       </div>
     </>
   );
